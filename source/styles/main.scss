@@ -1,5 +1,7 @@
 @use 'variaveis';
+@use 'reset';
 
-body{
+body {
     background-color: variaveis.$corPrincipal;
+    color: variaveis.$corDoTexto;
 }
